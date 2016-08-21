@@ -7,9 +7,10 @@ Google Photos doesn't allow to get an image direct link (with image extension [l
 This Chrome extension is very helpful to post images in forums or blogs, that the file extension is mandatory.
 Is possible to configure the desired image size too.
 
-
 Usage instructions:
 Open an image and just click (left click) over the image. An message is shown at the page bottom.
+
+Link to extension: https://chrome.google.com/webstore/detail/google-photos-direct-link/dgnaaplaoheafdckphgmpiaodckbcafg
 
 # License
 Under MIT license
