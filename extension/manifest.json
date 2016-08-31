@@ -1,11 +1,11 @@
 {
   "name": "Google Photos Direct Link",
-  "version": "0.4",
+  "version": "0.5",
   "manifest_version": 2,
   "description": "Allow you to copy a direct link, with extension, from Google Photos.",
   "content_scripts" : [
     {
-      "matches" : ["https://photos.google.com/*"],
+      "matches" : ["https://photos.google.com/*", "https://get.google.com/albumarchive/*"],
       "css": ["direct_styles.css"],
       "js" : ["jquery-1.11.1.min.js", "direct.js"],
       "run_at" : "document_end"
