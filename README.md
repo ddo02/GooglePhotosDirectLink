@@ -19,7 +19,7 @@ Link to extension: https://chrome.google.com/webstore/detail/google-photos-direc
 
 Using https://photos.google.com, some links turns invalid after some time.
 
-Using get.google.com/albumarchive, the links doesn't stop working.
+Using https://get.google.com/albumarchive, the links doesn't stop working.
 
 # License
 Under MIT license
