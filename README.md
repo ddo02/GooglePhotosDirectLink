@@ -15,7 +15,7 @@ Open an image and just click (left click) over the image. An message is shown at
 Link to extension: https://chrome.google.com/webstore/detail/google-photos-direct-link/dgnaaplaoheafdckphgmpiaodckbcafg
 
 
-IMPORTANT:
+# IMPORTANT:
 
 Using https://photos.google.com, some links turns invalid after some time.
 
