@@ -1,6 +1,6 @@
 {
   "name": "Google Photos Direct Link",
-  "version": "0.5",
+  "version": "0.6",
   "manifest_version": 2,
   "description": "Allow you to copy a direct link, with extension, from Google Photos.",
   "content_scripts" : [

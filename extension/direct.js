@@ -60,6 +60,35 @@ function showToast(text) {
 	$('.toast').fadeIn(400).delay(2000).fadeOut(400);
 }
 
+var last_url = "";
+
+$("body").on('click', 'div.LaaOff', function() {
+	
+	// get the image URL
+	//var img_url = $("div.LaaOff").attr("data-tiu");
+	var img_url = $(this).attr("data-tiu");
+	
+	// to prevent multi "Image URL copied to clipboard!" when zooming the image
+	if(last_url != img_url) {
+		last_url = img_url;
+		chrome.storage.sync.get(
+			{img_width: 1000}, 
+			function(items) {
+				
+				var width = items.img_width;
+				
+				// force width with 1000px and add an extension
+				img_url = img_url + "=w" + width + "-no-tmp.jpg"
+				
+				// put the new URL in clipboard
+				copyTextToClipboard(img_url);
+				
+				// show a "toast" stile message
+				showToast("Image URL copied to clipboard!");
+			});
+	}
+});
+
 $("body").on('click', 'img', function() {
     
 	// URL sample
