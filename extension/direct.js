@@ -62,7 +62,9 @@ function showToast(text) {
 
 var last_url = "";
 
-$("body").on('click', 'div.LaaOff', function() {
+$("body").on('click', 'div.O84Olb', function() {
+	
+	// TODO: change this hardcoded div listener.
 	
 	// get the image URL
 	//var img_url = $("div.LaaOff").attr("data-tiu");
