@@ -1,5 +1,5 @@
-# GooglePhotosDirectLink
-Google Photos Direct Link is a Google Chrome extension, that allow you to copy a 
+# PhotosDirectLink
+Photos Direct Link is a Google Chrome extension, that allow you to copy a 
 direct link, with extension (.jpg), from Google Photos (https://photos.google.com or https://get.google.com/albumarchive).
 
 Google Photos doesn't allow to get an image direct link (with image extension [like png or jpg]).
